@@ -20,8 +20,8 @@ def hitbtcAgg(symbols):
     result = []
     try:
         hitbtc = ccxt.hitbtc({
-            'apiKey': '1c08286612966c0cfde89951f8e25cfb',
-            'secret': 'cf49923474a1eeb0cac3714a18836b0c',
+            'apiKey': 'apiKey',
+            'secret': 'secret',
             'options': {'adjustForTimeDifference': True}
         })
         totalBalance = hitbtc.fetch_balance()["free"]
@@ -59,8 +59,8 @@ def okexAgg(symbols):
     result = []
     try:
         okex = ccxt.okex({
-            'apiKey': 'e661747e-5ffd-4ae4-9c73-81b02c479d46',
-            'secret': 'EBCAE7AF874A99DDC51A26173CF85C0B',
+            'apiKey': 'apiKey',
+            'secret': 'secret',
             'options': {'adjustForTimeDifference': True}
         })
         totalBalance = okex.fetch_balance()["free"]
@@ -99,8 +99,8 @@ def liquiAgg(symbols):
     result = []
     try:
         liqui = ccxt.liqui({
-            'apiKey': 'A9MN1E0R-RWUO52G6-VJQXZM1C-AZ4YR2A7-C67Z51UC',
-            'secret': '0e7fc8851e071ac7ef4888a787cf945fff0c2474738ab1bef085e07d9591ddb9',
+            'apiKey': 'apiKey',
+            'secret': 'secret',
             'options': {'adjustForTimeDifference': True}
         })
         totalBalance = liqui.fetch_balance()["free"]
@@ -139,8 +139,8 @@ def krakenAgg(symbols):
     result = []
     try:
         kraken = ccxt.kraken({
-            'apiKey': 'nnMk0QyOMFfTqXSPN6Qorsz+6iqMLo7JwVdcoc2DI+vU+M+QKirTCV4j',
-            'secret': 'wD3/BsdlgLUMh3E+zNSuFztMdcld86pVlTlzQgl4brcUzAWqoIoLe5NSxLpw1IfQGAgne5y7txCIs8pxQ84JWA==',
+            'apiKey': 'apiKey',
+            'secret': 'secret',
             'options': {'adjustForTimeDifference': True}
         })
         totalBalance = kraken.fetch_balance()["free"]
@@ -178,8 +178,8 @@ def binanceAgg(symbols):
     result = []
     try:
         binance = ccxt.binance({
-            'apiKey': 'HkUsqNGUm2k1sgEAWqKCMbb6r8eVjE655zwcGq6ET1vceaZysE7kvgOH1UKuhU1g',
-            'secret': 'HQSr60HtlonWSFI1fszrAFjULmiMsd4ZPsq86CIEi0tE6RB0l3T9moEpSjPTKHP8',
+            'apiKey': 'apiKey',
+            'secret': 'secret',
             'options': {'adjustForTimeDifference': True}
         })
         totalBalance = binance.fetch_balance()["free"]
@@ -218,8 +218,8 @@ def kucoinAgg(symbols):
     result = []
     try:
         kucoin = ccxt.kucoin({
-            'apiKey': '5a8365a918da3477dcaea8f3',
-            'secret': 'e53b33c4-dfe1-4a79-b5c4-70d2e78f6aea',
+            'apiKey': 'apiKey',
+            'secret': 'secret',
             'options': {'adjustForTimeDifference': True}
         })
         totalBalance = kucoin.fetch_balance()["free"]
@@ -259,8 +259,8 @@ def huobiAgg(symbols):
     result = []
     try:
         huobi = ccxt.huobi({
-            'apiKey': '6e84c88a-727306e0-37633647-5ce7e',
-            'secret': 'bd53ecee-1a6147e2-eefa218d-8bcbc',
+            'apiKey': 'apiKey',
+            'secret': 'secret',
             'options': {'adjustForTimeDifference': True}
         })
 
@@ -286,8 +286,8 @@ def yobitAgg(symbols):
     result = []
     try:
         yobit = ccxt.yobit({
-            'apiKey': 'E1912175FA2891BF64D3FC605FDA6C8C',
-            'secret': '399955509224b7b98ac5a9d2af115041',
+            'apiKey': 'apiKey',
+            'secret': 'secret',
             'options': {'adjustForTimeDifference': True}
         })
         totalBalance = yobit.fetch_balance()["free"]
@@ -325,8 +325,8 @@ def bitfinexAgg(symbols):
     result = []
     try:
         bitfinex = ccxt.bitfinex({
-            'apiKey': 'd8IztR3aHSOX3m7IpfxHNVz9sqtpZK1r0KOoOSTVIom',
-            'secret': 'RfZVQIxamQwjw2bhGaWkMr3b3NLuOsZni3pXoYKY3Fm',
+            'apiKey': 'apiKey',
+            'secret': 'secret',
             'options': {'adjustForTimeDifference': True}
         })
         totalBalance = bitfinex.fetch_balance()["free"]
@@ -365,8 +365,8 @@ def bittrexAgg(symbols):
     result = []
     try:
         bittrex = ccxt.bittrex({
-            'apiKey': '5b64b08e52554a8898a8130f44c1dd97',
-            'secret': 'cec389794dac47ea8a78002799b55db4',
+            'apiKey': 'apiKey',
+            'secret': 'secret',
             'options': {'adjustForTimeDifference': True}
         })
         totalBalance = bittrex.fetch_balance()["free"]
@@ -405,8 +405,8 @@ def poloniexAgg(symbols):
     result = []
     try:
         poloniex = ccxt.poloniex({
-            'apiKey': 'HWJ8USAK-LIUIM3IN-WWUYY7WV-PQUB77GF',
-            'secret': '62f50ccb0480dcf340305c2a46cb392f6ab46aaae4ce6bec92791cca5b20e014df98464cfe2e1d4bdc4955924780c0fe7af1a89696ecb6136aecb1243a11905f',
+            'apiKey': 'apiKey',
+            'secret': 'secret',
             'options': {'adjustForTimeDifference': True}
         })
         allData= poloniex.load_markets()
@@ -445,8 +445,8 @@ def gateAgg(symbols):
     result = []
     try:
         gate = ccxt.gateio({
-            'apiKey': '15408F71-19A2-4362-BDD6-C7A7C523D15A',
-            'secret': '9f3fb71df4501528c068b79d795021e7134ff5c463148d56796b3ac7ee79cf22',
+            'apiKey': 'apiKey',
+            'secret': 'secret',
             'options': {'adjustForTimeDifference': True}
         })
         totalBalance = gate.fetch_balance()["free"]
@@ -483,8 +483,8 @@ def gateAgg(symbols):
 def idexAgg(symbols):
     result = []
     try:
-        idex = idexExchange.idex(address="984639855bf081116e0db26f5843a34384e58e7c", \
-                                  private_key="0x8e9c7e96ad15be51ce4d28ddedc5fa2566528bbd2eb5f8acac58a8c2b7757b83")
+        idex = idexExchange.idex(address="address", \
+                                  private_key="privatKey")
 
         totalBalance = idex.get_my_balances()
         allData= idex.get_tickers()
