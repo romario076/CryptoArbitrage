@@ -1,5 +1,6 @@
 # Cryptocurrency Arbitrage
-Cryptocurrency intermarket arbitrage detection
+Cryptocurrency intermarket arbitrage detection.
+
 Retrives data for each exchange(controled by check boxes) and find arbitrage opportunuty between exhanges.
 Possible to see account balance for each ticker and traded volume, also possible to filter by volume(volume in ETH).
 List of tickers possible to change in Tickers.txt.
